@@ -1,5 +1,4 @@
 package br.edu.fateczl.projetoandroid05_1;
-
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -18,6 +17,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
 
     private RadioGroup rgQuantDados;
     private RadioButton rbQuantDados1;
