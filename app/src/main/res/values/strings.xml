@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjetoAndroid05_1</string>
+    <string name="quantDados1">1 Dado</string>
+    <string name="quantDados2">2 Dados</string>
+    <string name="quantDados3">3 Dados</string>
+    <string name="rodarDados">Rodar Dados</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rgQuantDados"
+        android:layout_width="204dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/spTipoDado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbQuantDados1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quantDados1" />
+
+        <RadioButton
+            android:id="@+id/rbQuantDados2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quantDados2" />
+
+        <RadioButton
+            android:id="@+id/rbQuantDados3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quantDados3" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spTipoDado"
+        android:layout_width="277dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvResultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRodarDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="229dp"
+        android:text="@string/rodarDados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spTipoDado"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="312dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spTipoDado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
